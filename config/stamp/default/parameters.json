@@ -15,19 +15,19 @@
             "value": "Standard_D1_v2"
         },
         "mongoVmSize": {
-            "value": "Standard_D2_v2"
+            "value": "Standard_D1_v2"
         },
         "mysqlVmSize": {
-            "value": "Standard_D2_v2"
+            "value": "Standard_D1_v2"
         },
         "frontendVmSize": {
-            "value": "Standard_D2_v2"
+            "value": "Standard_D1_v2"
         },
         "adminUsername": {
             "value": "lexoxaadmin"
         },
         "adminPublicKey": {
-            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCj0GHnhX8L8cPtCFhNPTClvDMzeMsB+ys5uMaqFgTa2mrWSUBsbsVwK91H6mwtrKRJf42Ry5DVYKLPf8XSz22v5iyZ1DrbkGJcmHRWEBFA47habQFg+eXBUSENUf1cMOh4RwkN1olCLpsdeKrF0Rj6k3ZFODUJIf+v5HYKFkj+8iVdQh0wgnPVxneqIKcbqNLO8ymmAiTT+fYaubPWzJmq8nUKoNZRiPXSSAwHHtNouR4vvPtOU7je2TxzoYIcM/Ja6YycBx44W+A7ygY5/hmij4Byhm20MLZLoBLX2AMp8horzqWhdF/wvFMhv8FTTzlWpwhuEpbd2M4B6Tylajm8lwA9u/9MO6lEbqnX/XH/KS9hPZdKvqXgbPTzM265Aea0LPXHDdF0f9AID6Xl3grHrtkKFGMzbgqFtF9nd51kwDTZr2b1zIVWb6XxDXXVhX4XqWniCT8xEzuGyMp4/mhaghRDhT45Alu6Frv6d5+IjeabBSXOwwe+8NpTDc0+hxM/MYiE4K6EHpPqwxOoRJcZFrjdSxQGGrCD+bLJbGfI8tn96Wq4zBBUMp+iX1iXXNScgqUAaSoNKEH8ag177oOvtH3AsB/b7Nm/eUIr/WYfYESlft1M1h25Lvu6QgFyqJlwdXSPCiIYbR6nK6WI2Zz6cActCLoJaN7IPw6RLeY+tw== admin@contoso.com"
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCwSelPw6ivimzPibGKNSlACB5aAUBCLtEtzW03sTbgOzrChtC9cFfLdIHi7gS3LgsuqK8e/vE0WK23y0pdFSCZVFtQDz9VqeOMZyUjmHMGVxbbgMn4CIH2zDkTlyfpD0v/B0nJEFBjH9Wj521vagz/iUuUWh7KuNidEeVC8wAzHCsOAZ8UIyS6ef3aZqx6zA88xOAqsD2HLqSIYt7LF99HGsY4rb8qgJ3NQyHs6AwM8mDHGrfcNQR5OX9WmhZq67TW+IcmiY8xhD5XOESsXrySDlM9hxrM6ERzmG+rDjR3Jf6tj5hqZkgbDVQ/cC06aLX3REquPfCikb/VCTqg4iJ6pikvEAEoYekQH1HAZzneNnmtZVsXsazKWL8A8Yky3H0oZQc1JNMW3l1ok8JJRKBXU34/7K3DRLTNwL0v2i6DS05Y+76LHXTiW+9oRvPzv8WEBMPhL1H4xg1L8ZGa+P1lLyUFhJO6A301L9xu0ziqIMo+2nfZAmYnYAUpvBovTxNgNlxbyAyzXS4DRk9h+WWZywhFqFUR1+95tvr79bp8HkbGmYfpgWwBf8Vq+kDeSOlLU6H31AiNBNa1YQZ3zm/d6OgnBbERQujDokMStOfrSwlqwC5vhrwe83Mnl3aFPRMmLefbIL8zuSBpxgjXBCgwRbUtCHdWYPoSbEDRGnptSw== USER@DESKTOP-3B7A697"
         },
         "mongoServerAdminUserName": {
             "value": "oxamongoadmin"
@@ -60,7 +60,7 @@
             "value": "slot1"
         },
         "deploymentVersionId": {
-            "value": "201703141409"
+            "value": "201802110001"
         },
         "autoScaleEnabled": {
             "value": true
@@ -75,7 +75,7 @@
             "value": 1
         },
         "oxaToolsGithubAccountName": {
-            "value": "Microsoft"
+            "value": "UTPLAAS"
         },
         "oxaToolsGithubProjectName": {
             "value": "oxa-tools"
@@ -84,7 +84,7 @@
             "value": "oxa/master.fic"
         },
         "edxConfigurationGithubAccountName": {
-            "value": "Microsoft"
+            "value": "UTPLAAS"
         },
         "edxConfigurationGithubProjectName": {
             "value": "edx-configuration"
@@ -93,7 +93,7 @@
             "value": "oxa/master.fic"
         },
         "edxPlatformGithubAccountName": {
-            "value": "microsoft"
+            "value": "UTPLAAS"
         },
         "edxPlatformGithubProjectName": {
             "value": "edx-platform"
@@ -102,7 +102,7 @@
             "value": "oxa/master.fic"
         },
         "edxThemeGithubAccountName": {
-            "value": "microsoft"
+            "value": "UTPLAAS"
         },
         "edxThemeGithubProjectName": {
             "value": "edx-theme"
@@ -239,13 +239,13 @@
             "value": false
         },
         "enableComprehensiveTheming": {
-            "value": false
+            "value": true
         },
         "comprehensiveThemingDirectory": {
-            "value": ""
+            "value": "/edx/app/edxapp/edx-platform/themes"
         },
         "comprehensiveThemingName": {
-            "value": ""
+            "value": "comprehensive"
         },
         "enableThirdPartyAuth": {
             "value": false
@@ -254,7 +254,7 @@
             "value": ""
         },
         "baseDomain": {
-            "value": "{CLUSTERNAME}-tm.trafficmanager.net"
+            "value": ""
         },
         "domainSeparator": {
             "value": "-"
